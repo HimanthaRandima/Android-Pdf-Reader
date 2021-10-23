@@ -14,7 +14,8 @@
         android:requestLegacyExternalStorage="true"
         android:supportsRtl="true"
         android:theme="@style/Theme.PdfReader">
-        <activity android:name=".MainActivity">
+        <activity android:name=".MainActivity"
+            android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -22,7 +23,7 @@
             </intent-filter>
         </activity>
 
-        <activity android:name=".PdfActivity"></activity>
+        <activity android:name=".PdfActivity" android:theme="@style/Lite.PdfReader"></activity>
 
     </application>
 

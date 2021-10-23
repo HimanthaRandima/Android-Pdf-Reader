@@ -1,7 +1,11 @@
 package com.worldinova.open.pdfreader;
 
+import android.app.Activity;
+import android.graphics.Color;
 import android.os.Bundle;
 import android.util.Log;
+import android.view.Window;
+import android.view.WindowManager;
 import android.widget.TextView;
 
 import androidx.annotation.Nullable;
@@ -20,7 +24,6 @@ public class PdfActivity extends AppCompatActivity implements OnPageChangeListen
     PDFView pdfView;
     Integer pageNumber = 0;
     String pdfFileName;
-    TextView head_tv;
     String TAG="PdfActivity";
     int position=-1;
 
@@ -29,8 +32,6 @@ public class PdfActivity extends AppCompatActivity implements OnPageChangeListen
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_pdf);
         init();
-        head_tv = findViewById(R.id.head_tv);
-
     }
 
     private void init(){
@@ -55,7 +56,7 @@ public class PdfActivity extends AppCompatActivity implements OnPageChangeListen
     @Override
     public void onPageChanged(int page, int pageCount) {
         pageNumber = page;
-        head_tv.setText(String.format("%s %s / %s", pdfFileName, page + 1, pageCount));
+        //head_tv.setText(String.format("%s %s / %s", pdfFileName, page + 1, pageCount));
     }
 
     @Override
