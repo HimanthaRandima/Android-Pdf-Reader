@@ -44,7 +44,7 @@ public class MainActivity extends AppCompatActivity {
         FloatingActionButton fab = findViewById(R.id.fab);
         fab.setOnClickListener(view -> {
             Intent intent = new Intent(Intent.ACTION_VIEW);
-            intent.setData(Uri.parse("https://worldinova.code.blog/donate/one"));
+            intent.setData(Uri.parse("https://worldinova.web.app/diamond.html"));
             startActivity(intent);
         });
 

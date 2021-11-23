@@ -34,7 +34,7 @@
         android:layout_height="wrap_content"
         android:divider="@color/teal_700"
         android:layout_marginHorizontal="10dp"
-        android:dividerHeight="1dp"
+        android:dividerHeight="0.5dp"
         android:scrollbars="none">
 
     </ListView>
@@ -50,7 +50,7 @@
         android:layout_alignParentBottom="true"
         android:layout_margin="10dp"
         android:scaleType="centerCrop"
-        android:src="@drawable/donate"
+        android:src="@drawable/diamond"
         app:backgroundTint="@color/black"
         app:elevation="15dp"
         app:tint="@android:color/white"

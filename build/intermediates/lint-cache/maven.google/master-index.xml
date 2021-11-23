@@ -168,6 +168,7 @@
   <com.google.android.instantapps.thirdpartycompat/>
   <com.google.android.libraries.car/>
   <com.google.android.libraries.enterprise.amapi/>
+  <com.google.android.libraries.healthdata/>
   <com.google.android.libraries.maps/>
   <com.google.android.libraries.mapsplatform.secrets-gradle-plugin/>
   <com.google.android.libraries.places/>
