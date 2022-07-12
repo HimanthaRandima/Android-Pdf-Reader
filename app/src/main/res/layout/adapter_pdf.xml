@@ -5,6 +5,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
+    android:longClickable="false"
     android:background="@android:color/transparent"
     android:orientation="horizontal">
 
@@ -12,27 +13,25 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="horizontal"
-        android:layout_marginVertical="5dp"
-        android:paddingVertical="10dp">
+        android:layout_marginHorizontal="5dp"
+        android:layout_marginVertical="15dp">
 
 
         <ImageView
-            android:layout_width="30dp"
+            android:layout_width="6dp"
             android:layout_height="30dp"
-            android:layout_marginHorizontal="7dp"
-            android:src="@drawable/pdf_icon"
-            app:tint="@color/white" />
+            android:layout_marginEnd="7dp"
+            android:src="@drawable/bg_round_head"/>
 
         <TextView
             android:id="@+id/tv_name"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
-            android:fontFamily="serif"
             android:maxLines="1"
             android:paddingEnd="10dp"
             android:text="Name"
-            android:textAllCaps="true"
+            android:textAllCaps="false"
             android:textColor="@color/white"
             android:textSize="15sp"
             android:textStyle="normal"
@@ -44,9 +43,9 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         app:cardBackgroundColor="@color/dark_mode_rose"
-        app:cardCornerRadius="15dp"
+        app:cardCornerRadius="13dp"
         android:visibility="gone"
-        app:cardElevation="5dp">
+        app:cardElevation="2dp">
 
 
 

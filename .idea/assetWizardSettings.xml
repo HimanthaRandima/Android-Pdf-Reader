@@ -307,7 +307,7 @@
                                 <PersistentState>
                                   <option name="values">
                                     <map>
-                                      <entry key="url" value="file:/$PROJECT_DIR$/../../../Himantha%20Randima/AppData/Local/Android/Sdk/icons/material/materialicons/library_books/baseline_library_books_24.xml" />
+                                      <entry key="url" value="file:/$PROJECT_DIR$/../../../Himantha%20Randima/AppData/Local/Android/Sdk/icons/material/materialicons/search/baseline_search_24.xml" />
                                     </map>
                                   </option>
                                 </PersistentState>
@@ -317,7 +317,7 @@
                         </option>
                         <option name="values">
                           <map>
-                            <entry key="outputName" value="ic_books" />
+                            <entry key="outputName" value="ic_search" />
                             <entry key="sourceFile" value="C:\Users\Himantha Randima\StudioProjects\Android-Pdf-Reader" />
                           </map>
                         </option>

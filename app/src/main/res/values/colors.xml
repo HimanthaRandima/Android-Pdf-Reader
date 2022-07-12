@@ -7,6 +7,7 @@
     <color name="dark_mode_lite">#15202B</color>
     <color name="dark_mode_purple">#ff070520</color>
     <color name="dark_mode_rose">#1f2933</color>
+    <color name="dark_mode_gray">#17181c</color>
     <color name="black">#FF000000</color>
 
 </resources>
